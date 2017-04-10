@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="robson.professor.quiz.Main2Activity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/pergunta01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERGUNTA1"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/resposta01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPOSTA1" />
+
+    <TextView
+        android:id="@+id/pergunta02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERGUNTA2"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/resposta02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPOSTA2" />
+
+    <TextView
+        android:id="@+id/pergunta03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERGUNTA3"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/resposta03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPOSTA3" />
+
+    <TextView
+        android:id="@+id/pergunta04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERGUNTA4"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/resposta04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESPOSTA4" />
+
+    <TextView
+        android:id="@+id/txfinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PORCENTAGEM"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+</LinearLayout>
